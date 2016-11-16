@@ -14,5 +14,19 @@ namespace WebApi.Controllers
 
             return View();
         }
+
+        public ActionResult Register()
+        {
+            ViewBag.Title = "Reg page";
+
+            return View();
+        }
+
+        public ActionResult Login()
+        {
+            ViewBag.Title = "Login page";
+
+            return View();
+        }
     }
 }
